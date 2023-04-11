@@ -1,0 +1,22 @@
+{
+    "name": "Short URL",
+    "version": "1.0",
+    "description": "Create Tiny Url On A Click.",
+    "icons": {
+        "128": "oic.png"
+    },
+
+    "action":{
+        "default_popup": "popup.html"
+    },
+
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "manifest_version": 3,
+    "permissions":[
+        "storage"
+    ]
+
+}
